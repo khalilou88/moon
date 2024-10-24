@@ -5,6 +5,7 @@
   "prefix": "app",
   "sourceRoot": "apps/web-app/src",
   "tags": [],
+  "implicitDependencies": ["web-api"],
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:application",

@@ -5,6 +5,7 @@
   "prefix": "app",
   "sourceRoot": "apps/admin-app/src",
   "tags": [],
+  "implicitDependencies": ["admin-api"],
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:browser",
