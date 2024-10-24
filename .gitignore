@@ -42,3 +42,11 @@ Thumbs.db
 .nx/workspace-data
 
 .angular
+
+
+# Maven
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+!.mvn/wrapper/maven-wrapper.jar
+apis/.m2/repository
